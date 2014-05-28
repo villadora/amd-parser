@@ -1,0 +1,14 @@
+*.log
+*.rej
+*.swo
+*.swp
+*~
+.DS_Store
+._*
+.cache
+.project
+.settings
+.tmproj
+thumbs.db
+node_modules
+
