@@ -22,6 +22,7 @@ var mod = modules[0];
 mod.id; // module
 mod.node; // define function node
 mod.simpleObject; // true if AMD is a simpleObject/dependency free module
+mod.object; // if mod.simpleObject is true, object will be the object node
 mod.normalized; // true if AMD is just a commonjs wrapper module
 mod.returns; // return statements in a standard module
 mod.factoryNode; // ast node for factory function
